@@ -23,8 +23,8 @@ env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
   RUN_REGION: us-central1
   SERVICE_NAME: ml-api-gss
-  BASIC_AUTH_USERNAME: ${{ secrets.BASIC_AUTH_USERNAME }}
-  BASIC_AUTH_PASSWORD: ${{ secrets.BASIC_AUTH_PASSWORD }}
+  BASIC_AUTH_USERNAME: ${{ secrets.BASIC_AUTH_USERNAME_SEC }}
+  BASIC_AUTH_PASSWORD: ${{ secrets.BASIC_AUTH_PASSWORD_SEC }}
 
 jobs:
   setup-build-deploy:
